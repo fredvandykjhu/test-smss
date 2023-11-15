@@ -1,13 +1,18 @@
-Welcome to Lumache's documentation!
+Sample Mortality Surveillance System (SMSS) Documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**SMSS** is a type of Sample Registration System.  
+The initial sections of this guide focus on the information technology
+and data infrastructure necessary to build an SMSS.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The examples here are derived from the SIS-COVE (formerly COMSA) project
+in Mozambique.  
+
+Credits 
+JHU, INS
+
+Check out the :doc:`data` section for further information, including
+diagrams of :ref:`data-models`.
 
 .. note::
 
@@ -18,5 +23,6 @@ Contents
 
 .. toctree::
 
+   data
    usage
    api
